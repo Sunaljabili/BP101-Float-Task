@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#main-cards{
+
+}
+#main-cards .container{
+    margin: 30px auto;
+    width: 80%;
+    
+}
+
+#main-cards .container .card{
+    float: left;
+    width: calc(33% - 20px);
+    background-color: #f8f9fa;
+    margin: 10px;
+    position: relative;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+#main-cards .container .card .card-body{
+    text-align: center;
+}
+
+#main-cards .container .card .card-body .icon{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 0 auto;
+    position:absolute;
+    left: 40%;
+    bottom:80%;
+
+}
+#main-cards .container .card .card-body .icon i{
+
+    padding-top: 20px;
+}
+#main-cards .container .card .card-body .title{
+    /* margin-top: 50px; */
+    padding-top: 20px;
+}
+#main-cards .container .card .card-body .title p{
+    font-size: 12px;
+}
